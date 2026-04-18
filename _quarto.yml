@@ -1,0 +1,28 @@
+project:
+  type: book 
+
+book:
+  title: "標準ベイズ統計 完全解答集"
+  author: "SDS Standard Bayes Project"
+  repo-url: "https://github.com/sds-standard-bayes/standard-bayes-answers"
+  repo-actions: [edit, issue]
+  chapters:
+    - chapters/01_introduction.qmd
+    # 章が増えたらここに追記していく
+
+lang: ja
+
+execute:
+  warning: false  
+  message: false 
+
+format:
+  html:
+    engine: knitr
+    code-fold: true
+    toc: true
+    toc-depth: 3
+    theme: sandstone 
+    number-sections: true
+    number-offset: [1]  
+    html-math-method: katex

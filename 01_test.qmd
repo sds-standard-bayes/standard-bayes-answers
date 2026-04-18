@@ -1,0 +1,19 @@
+---
+title: "第1章: 標準ベイズ統計"
+---
+
+## 1.1 ベイズの定理の確認
+
+事後分布は、尤度と事前分布の積に比例します。
+
+$$P(\theta|D) = \frac{P(D|\theta)P(\theta)}{P(D)}$$
+
+以下はRの描画テストです。
+
+```{r}
+#| message: false
+#| warning: false
+x <- seq(-3, 3, length=100)
+y <- dnorm(x)
+plot(x, y, type="l", main="Prior Distribution Test", col="blue", lwd=2)
+```

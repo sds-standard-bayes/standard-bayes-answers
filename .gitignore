@@ -1,0 +1,22 @@
+# --- R / RStudio ---
+.Rhistory
+.Rapp.history
+.RData
+.Ruserdata
+.Rproj.user/
+*.Rproj
+
+# --- Quarto / R Markdown ---
+/.quarto/
+*_files/
+*_cache/
+*.html
+*.pdf
+*.docx
+
+# --- OSの隠しファイル ---
+.DS_Store
+Thumbs.db
+
+
+C:\study\standard-bayes\standard-bayes-answers\01_test.qmd
